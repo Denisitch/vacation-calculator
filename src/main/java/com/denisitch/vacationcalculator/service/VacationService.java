@@ -1,4 +1,8 @@
 package com.denisitch.vacationcalculator.service;
 
-public class VacationService {
+import com.denisitch.vacationcalculator.dto.VacationDTO;
+import com.denisitch.vacationcalculator.entity.VacationData;
+
+public interface VacationService {
+    VacationData calculate(VacationDTO dto);
 }
